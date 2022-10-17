@@ -49,7 +49,7 @@ func main() {
 			"-c",
 		}
 		cmd = append(cmd, os.Args[2:]...)
-        exec.Command(cmd[0], cmd[1:]...).Run()
+		exec.Command(cmd[0], cmd[1:]...).Run()
 	}
 
 	C.XMapWindow(dpy, win)
